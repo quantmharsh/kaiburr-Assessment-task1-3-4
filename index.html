@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server API</title>
+</head>
+<body>
+    <h1>Server API</h1>
+
+    <!-- Input field for getting server by ID -->
+    <label for="serverId">Enter Server ID:</label>
+    <input type="text" id="serverId" placeholder="Server ID">
+    <button id="getServerById">Get Server by ID</button>
+
+    <!-- Input field for getting server by Name -->
+    <label for="serverName">Enter Server Name:</label>
+    <input type="text" id="serverName" placeholder="Server Name">
+    <button id="getServerByName">Get Server by Name</button>
+
+    <!-- Input fields for creating a new server -->
+    <h2>Create New Server</h2>
+    <label for="newServer">Server Name:</label>
+    <input type="text" id="newServer" placeholder="Server Name">
+    <label for="newServerLanguage">Language:</label>
+    <input type="text" id="newServerLanguage" placeholder="Programming Language">
+    <label for="newServerFramework">Framework:</label>
+    <input type="text" id="newServerFramework" placeholder="Framework">
+    <button id="createServer">Create Server</button>
+
+    <!-- Display the API response -->
+    <pre id="result"></pre>
+
+    <script src="script.js"></script>
+</body>
+</html>
